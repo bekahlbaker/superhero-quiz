@@ -81,6 +81,14 @@ button {
 	padding-top: 175px;
 }
 
+.character {
+	height: 300px;
+}
+
+.character-logo {
+	height: 250px;
+}
+
 /*mobile header
 */
 	@media screen and (max-width: 991px) {

@@ -9,7 +9,7 @@ $(document).ready(function(){
 }(document, 'script', 'facebook-jssdk'));
 
 	// $(function() {
-	//     $('.item').matchHeight();
+	//     $('.character-logo').matchHeight();
 	// });
 
 	$('.form').hide()
