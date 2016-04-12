@@ -1,3 +1,26 @@
+/*modal*/
+
+.close {
+	color: #fff;
+	text-shadow: 0 2px 0 #000;
+	font-size: 40px;
+	opacity: 1;
+}
+
+.modal-title {
+	max-height: 80px;
+}
+
+.modal-body {
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+/*	font-size: 1.25em;*/
+}
+
+li {
+	list-style: none;
+}
+
 .logo {
 	padding-top: 20px;
 }
@@ -23,6 +46,7 @@ button {
 	border-width: 10px 0 10px 15px;
 	border-color: transparent transparent transparent #000000;
 	padding: 0px;
+	margin-left: 10px;
 }
 
 .col-md-1 {
@@ -53,6 +77,7 @@ button {
 }
 
 .score {
+	color: #000;
 	text-align: center;
 }
 
