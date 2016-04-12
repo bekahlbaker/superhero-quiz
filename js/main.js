@@ -16,6 +16,7 @@ $(document).ready(function(){
 
 	$('.herobox').click(function() {
 	   $(this).children('.form').show();
+	   $('.guess').focus();
 
 	});
 
