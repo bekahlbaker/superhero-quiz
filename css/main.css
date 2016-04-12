@@ -1,0 +1,217 @@
+.logo {
+	padding-top: 20px;
+}
+
+.titleheader {
+	padding-left: 25px;
+}
+
+button {
+	background: transparent;
+    border: none;
+}
+
+.playnow {
+    margin-top: -160px;
+    margin-right: 20px;
+}
+.arrow-right {
+	background: transparent;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 15px;
+	border-color: transparent transparent transparent #000000;
+	padding: 0px;
+}
+
+.col-md-1 {
+	text-align: center;
+}
+
+.col-md-4{
+	text-align: center;
+}
+
+.col-md-7{
+	text-align: center;
+}
+
+.score li{
+	list-style: none;
+	padding-top: 20px;
+}
+
+#score {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+}
+
+#level {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 0px;
+}
+
+.score {
+	text-align: center;
+}
+
+.title {
+	background: #D5331E;
+	height: 175px;
+}
+
+.play {
+	padding: 0px 10px;
+}
+
+.ranking {
+	background: #5A6F8E;
+	height: 175px;
+	margin: 0;
+}
+
+.shadow{
+	background-color: black;
+	opacity: 0.4;
+	padding-top: 10px;
+}
+
+.game{
+	padding-top: 175px;
+}
+
+/*mobile header
+*/
+	@media screen and (max-width: 991px) {
+		.logo {
+			padding-top: 65px;
+		}
+
+		.titleheader{
+			padding-left: 0px;
+		}
+		.title {
+			 height: 170px;
+		}
+
+		.playnow {
+			margin-right: 0px;
+		}
+		.ranking {
+			height: 150px;
+		}
+
+		.score {
+			padding-top: 20px;
+    		padding-left: 20px;
+		}
+		.score li{
+			padding-top: 5px;
+		}
+
+		#score {
+			font-size: 3em;
+		}
+
+		.game {
+			padding-top: 320px;
+		}
+
+		.herobox {
+			margin-top: -20px!important;
+		}
+
+		.row {
+			margin-top: -20px;
+		}
+	}
+
+	@media screen and (min-width: 415px) and (max-width: 991px) {
+		.logo {
+			padding-top: 40px;
+		}
+
+		.titleheader{
+			padding-left: 0px;
+		}
+		.title {
+			 height: 200px;
+		}
+		.ranking {
+			height: 260px;
+		}
+
+		.score {
+			padding-left: 40px;
+    		padding-top: 40px;
+		}
+		.score li{
+			padding-top: 5px;
+		}
+
+		#score {
+			font-size: 4em;
+		}
+
+		.game {
+			padding-top: 410px;
+		}
+
+		.herobox {
+			margin-top: -20px!important;
+		}
+
+		.row {
+			margin-top: -20px;
+		}
+	}
+
+
+.herobox{
+	background: #C4C3C1;
+	height: 450px;
+	margin: 0
+}
+
+h2 {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px 20px;
+	text-align: left;
+}
+
+.guess {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 200px;
+}
+
+.submit {
+	vertical-align: middle;
+}
+
+.footer{
+	background: #0C2C77;
+	color: #fff;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+#reset{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.resetimg {
+	margin-top: -5px;
+}
+
+.reset{
+	margin-left: 10px;
+}
+
+.fb-share-button {
+
+}
