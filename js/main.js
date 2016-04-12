@@ -48,16 +48,18 @@ $(document).ready(function(){
 
 	if (correctAnswers == 0) {
 		$('#level').html(levelZero);
-	} else if (correctAnswers <=6) {
+	} else if ((correctAnswers >=1) && (correctAnswers <=6)) {
 		$('#level').html(levelOne);
-	} else if (correctAnswers >=7) {
+	} else if ((correctAnswers >=7) && (correctAnswers <=12)) {
 		$('#level').html(levelTwo);
-	} else if (correctAnswers >= 18) {
+	} else if ((correctAnswers >=13) && (correctAnswers <=18)) {
 		$('#level').html(levelThree);
-	} else if (correctAnswers >= 24) {
+	} else if ((correctAnswers >=19) && (correctAnswers <=24)) {
 		$('#level').html(levelFour);
-	} else if (correctAnswers >= 30) {
+	} else if ((correctAnswers >=25) && (correctAnswers <=29)){
 		$('#level').html(levelFive);
+	} else if (correctAnswers == 30) {
+		$('#surprise').html("<img class= 'surprise' src='http://38.media.tumblr.com/a2cc17ac37aa28733928286fe62e0df6/tumblr_mla8voaODR1ra9eteo1_1280.gif'/>");
 	}
 
 	});
