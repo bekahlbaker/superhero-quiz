@@ -89,6 +89,55 @@ button {
 	height: 250px;
 }
 
+.herobox{
+	background: #C4C3C1;
+	height: 450px;
+	margin: 0
+}
+
+h2 {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px 20px;
+	text-align: left;
+}
+
+.guess {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-transform: lowercase;
+	width: 200px;
+}
+
+.submit {
+	vertical-align: middle;
+}
+
+.footer{
+	background: #0C2C77;
+	color: #fff;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+#reset{
+	color: black;
+	padding-left: 50px;
+	
+}
+
+.reset {
+	margin-left: 10px;
+}
+
+.resetimg {
+	margin-top: -5px;
+}
+
+.fb-share-button {
+	padding-right: 100px;
+}
+
 /*mobile header
 */
 	@media screen and (max-width: 991px) {
@@ -133,6 +182,16 @@ button {
 		.row {
 			margin-top: -20px;
 		}
+
+		#reset {
+			color: black;
+			padding-left: 20px;
+			
+		}
+
+		.fb-share-button {
+			padding-right: 50px;
+		}
 	}
 
 	@media screen and (min-width: 415px) and (max-width: 991px) {
@@ -173,53 +232,14 @@ button {
 		.row {
 			margin-top: -20px;
 		}
+
+				#reset {
+			color: black;
+			padding-left: 20px;
+			
+		}
+
+		.fb-share-button {
+			padding-right: 50px;
+		}
 	}
-
-
-.herobox{
-	background: #C4C3C1;
-	height: 450px;
-	margin: 0
-}
-
-h2 {
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	padding: 20px 20px;
-	text-align: left;
-}
-
-.guess {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	width: 200px;
-}
-
-.submit {
-	vertical-align: middle;
-}
-
-.footer{
-	background: #0C2C77;
-	color: #fff;
-	padding: 30px 10px;
-	text-align: center;
-}
-
-#reset{
-	color: black;
-	font-family: 'Montserrat', sans-serif;
-
-}
-
-.resetimg {
-	margin-top: -5px;
-}
-
-.reset{
-	margin-left: 10px;
-}
-
-.fb-share-button {
-
-}

@@ -19,16 +19,22 @@ $(document).ready(function(){
 
 	});
 
+
 	var correctAnswers = 0;
-	var levelOne = 'street master';
-	var levelTwo = 'in-betweener';
-	var levelThree = 'mid-tier';
+	var levelZero = 'ignorant';
+	var levelOne = 'novice';
+	var levelTwo = 'apprentice';
+	var levelThree = 'intermediate';
+	var levelFour = 'advanced';
+	var levelFive = 'master';
 
 
 	$('.submit').click(function() {
+
+
 		var clickedOne = $(this);
 
-		if ($(clickedOne).siblings('.guess').val() == clickedOne.siblings('.answer').val() ) {
+		if ($(clickedOne).siblings('.guess').val().toLowerCase() == clickedOne.siblings('.answer').val() ) {
 			$(clickedOne).siblings('.guess').css('background-color', '#73AF59');
 			correctAnswers++;
 			$(clickedOne).hide();
@@ -38,14 +44,20 @@ $(document).ready(function(){
 			$(clickedOne).siblings('.guess').css('background-color', '#D72729');
 		}
 
-	$('#score').html(correctAnswers+'/25');
+	$('#score').html(correctAnswers+'/30');
 
-	if (correctAnswers == 1) {
+	if (correctAnswers == 0) {
+		$('#level').html(levelZero);
+	} else if (correctAnswers <=6) {
 		$('#level').html(levelOne);
-	} else if (correctAnswers == 2) {
+	} else if (correctAnswers >=7) {
 		$('#level').html(levelTwo);
-	} else if (correctAnswers == 3) {
+	} else if (correctAnswers >= 18) {
 		$('#level').html(levelThree);
+	} else if (correctAnswers >= 24) {
+		$('#level').html(levelFour);
+	} else if (correctAnswers >= 30) {
+		$('#level').html(levelFive);
 	}
 
 	});
