@@ -20,6 +20,7 @@ $(document).ready(function(){
 
 	});
 
+// $(clickedOne).siblings('.guess').val().toLowerCase():contains('clickedOne.siblings('.answer').val()');
 
 	var correctAnswers = 0;
 	var levelZero = 'ignorant';
@@ -35,31 +36,32 @@ $(document).ready(function(){
 
 		var clickedOne = $(this);
 
-		if ($(clickedOne).siblings('.guess').val().toLowerCase() == clickedOne.siblings('.answer').val() ) {
+		if ($(clickedOne).siblings('.guess').val().toLowerCase() == clickedOne.siblings('.answer1').val() || clickedOne.siblings('.answer2').val() ) {
 			$(clickedOne).siblings('.guess').css('background-color', '#73AF59');
 			correctAnswers++;
 			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess').prop('disabled', true);
+	        // $(clickedOne).siblings('.guess').closest('.form').next().find('.form').first().show();
 
 		} else {
 			$(clickedOne).siblings('.guess').css('background-color', '#D72729');
 		}
 
-	$('#score').html(correctAnswers+'/30');
+	$('#score').html(correctAnswers+'/33');
 
 	if (correctAnswers == 0) {
 		$('#level').html(levelZero);
 	} else if ((correctAnswers >=1) && (correctAnswers <=6)) {
 		$('#level').html(levelOne);
-	} else if ((correctAnswers >=7) && (correctAnswers <=12)) {
+	} else if ((correctAnswers >=7) && (correctAnswers <=13)) {
 		$('#level').html(levelTwo);
-	} else if ((correctAnswers >=13) && (correctAnswers <=18)) {
+	} else if ((correctAnswers >=14) && (correctAnswers <=20)) {
 		$('#level').html(levelThree);
-	} else if ((correctAnswers >=19) && (correctAnswers <=24)) {
+	} else if ((correctAnswers >=21) && (correctAnswers <=27)) {
 		$('#level').html(levelFour);
-	} else if ((correctAnswers >=25) && (correctAnswers <=29)){
+	} else if ((correctAnswers >=28) && (correctAnswers <=33)){
 		$('#level').html(levelFive);
-	} else if (correctAnswers == 30) {
+	} else if (correctAnswers == 33) {
 		$('#surprise').html("<img class= 'surprise' src='http://38.media.tumblr.com/a2cc17ac37aa28733928286fe62e0df6/tumblr_mla8voaODR1ra9eteo1_1280.gif'/>");
 	}
 
