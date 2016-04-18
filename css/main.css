@@ -128,7 +128,7 @@ h2 {
 	text-align: left;
 }
 
-.guess {
+.guess1, .guess2, .guess3 {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	text-transform: lowercase;

@@ -1,26 +1,26 @@
 $(document).ready(function(){
 
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+// (function(d, s, id) {
+//   var js, fjs = d.getElementsByTagName(s)[0];
+//   if (d.getElementById(id)) return;
+//   js = d.createElement(s); js.id = id;
+//   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+//   fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
 
 	// $(function() {
 	//     $('.character-logo').matchHeight();
 	// });
 
-	$('.form').hide()
+	// $('.form').hide()
+
+	var clickedOne = $(this);
 
 	$('.herobox').click(function() {
-	   $(this).children('.form').show();
-	   $('.guess').focus();
+	   $(clickedOne).find('.form').focus();
 
 	});
 
-// $(clickedOne).siblings('.guess').val().toLowerCase():contains('clickedOne.siblings('.answer').val()');
 
 	var correctAnswers = 0;
 	var levelZero = 'ignorant';
@@ -30,22 +30,55 @@ $(document).ready(function(){
 	var levelFour = 'advanced';
 	var levelFive = 'master';
 
+$('input[name="guess"]').keyup(function(){
+    this.value = this.value.toLowerCase();
+});
+
 
 	$('.submit').click(function() {
 
 
 		var clickedOne = $(this);
 
-		if ($(clickedOne).siblings('.guess').val().toLowerCase() == clickedOne.siblings('.answer1').val() || clickedOne.siblings('.answer2').val() ) {
-			$(clickedOne).siblings('.guess').css('background-color', '#73AF59');
+
+		if ($(clickedOne).siblings('.guess1').val() === 'the flash' ||
+				$(clickedOne).siblings('.guess1').val() === 'flash') {
+
+			$(clickedOne).siblings('.guess1').css('background-color', '#73AF59');
 			correctAnswers++;
 			$(clickedOne).hide();
-	        $(clickedOne).siblings('.guess').prop('disabled', true);
-	        // $(clickedOne).siblings('.guess').closest('.form').next().find('.form').first().show();
+	        $(clickedOne).siblings('.guess1').prop('disabled', true);
+
+	        // $(this).next().find('input[name="guess"]').focus();
 
 		} else {
-			$(clickedOne).siblings('.guess').css('background-color', '#D72729');
+			$(clickedOne).siblings('.guess1').css('background-color', '#D72729');
 		}
+
+		if ($(clickedOne).siblings('.guess2').val() === 'antman' ||
+				$(clickedOne).siblings('.guess2').val() === 'ant man') {
+
+			$(clickedOne).siblings('.guess2').css('background-color', '#73AF59');
+			correctAnswers++;
+			$(clickedOne).hide();
+	        $(clickedOne).siblings('.guess2').prop('disabled', true);
+
+		} else {
+			$(clickedOne).siblings('.guess2').css('background-color', '#D72729');
+		}
+
+		if ($(clickedOne).siblings('.guess3').val() === 'deadpool' ||
+				$(clickedOne).siblings('.guess3').val() === 'dead pool') {
+
+			$(clickedOne).siblings('.guess3').css('background-color', '#73AF59');
+			correctAnswers++;
+			$(clickedOne).hide();
+	        $(clickedOne).siblings('.guess3').prop('disabled', true);
+
+		} else {
+			$(clickedOne).siblings('.guess3').css('background-color', '#D72729');
+		}
+
 
 	$('#score').html(correctAnswers+'/33');
 
@@ -67,9 +100,21 @@ $(document).ready(function(){
 
 	});
 
+
+
 	$('#reset').click(function(){
 	location.reload(true)
 });
+
+
+$('input[name="guess"]').keyup(function (e) {
+	var submit = $(this).siblings('.submit');
+
+    if (e.keyCode == 13) {
+   		$(submit).click();
+    }
+});
+
 
 });
 
