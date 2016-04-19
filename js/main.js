@@ -14,12 +14,15 @@ $(document).ready(function(){
 
 	// $('.form').hide()
 
+
+$('.herobox').click(function() {	
+
 	var clickedOne = $(this);
+		
+    $(clickedOne).find('#textArea').focus();
 
-	$('.herobox').click(function() {
-	   $(clickedOne).find('.form').focus();
-
-	});
+  		  
+  	});		  
 
 
 	var correctAnswers = 0;
