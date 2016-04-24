@@ -41,24 +41,25 @@
     </head>
     <body>
     <div id="fb-root"></div>
-    <header class="navbar-fixed-top">
+    <header class="navbar">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-8 title"  style="background: url(img/titlebg.png) no-repeat center center; background-size: cover;">
+                    <div class="col-md-8 col-xs-12 title">
                         <nav class="logo"><img src="img/title.png" class="img-responsive titleheader" alt="">
                         <h1>DC and MARVEL CHARACTER QUIZ</h1>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="playnow pull-right" data-toggle="modal" data-target="#myModal"><img src="img/playnow.png" alt="">
-                            </button>
                         </nav>
                     </div>
-                    <div class="col-md-4 ranking" style="background: url(img/scorebg.png) no-repeat center center; background-size: cover;">
+                    <div class="col-md-4 col-xs-12">
+                            <button class="play" type="button" data-toggle="modal" data-target="#myModal">
+                            HOW TO PLAY</button>
+                    </div>
+<!--                     <div class="col-xs-4 ranking match" style="background: url(img/scorebg.png) no-repeat center center; background-size: cover;">
                         <ul class="score">
                             <li id="score" value="0"></li>
                             <li id="level"></li>
                             <li id="surprise"></li>   
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         <div class="shadow"></div>
@@ -71,14 +72,14 @@
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                  <div class="modal-header"  style="background: url(img/bg-red.png) no-repeat center center; background-size: cover;">
+                  <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title" id="myModalLabel"><img src="img/titleheader.png" alt="" class="modal-title img-responsive"></h3>
+                    <h3 class="modal-title" id="myModalLabel">ARE YOU A COMIC EXPERT?</h3>
                   </div>
                   <div class="modal-body">
-                    <h4><img src="img/howitworks.png" alt=""></h4>
+                    <h4>Here's how it works:</h4>
                     <p>You will be presented with the headshots of 39 different DC & Marvel Comic superheroes and villains. Beneath each headshot is a place for you to enter the name of the character. Enter as many as you can and see how you score!<br>(Remember, this fan tribute is free and just for fun, so don’t get too upset if you can’t get them all - or if one of your favorites was left out.)</p>
-                    <h4><img src="img/scored.png" alt=""></h4>
+                    <h4>See how you rate:</h4>
                     <ul>
                     <li>0 : ignorant</li>
                     <li>1 - 7 : novice</li>
@@ -89,38 +90,38 @@
                     <li>39 : expert</li>
                     </ul>
                   </div>
-                  <div class="modal-footer" style="background: url(img/bg-red.png) no-repeat center center; background-size: cover;">
-                    <button type="button" class="btn" data-dismiss="modal"><img src="img/gotit.png" alt="" style="height: 30px;"><div class="arrow-right pull-right" style="margin-top: 5px;"></div></button>
-                  </div>
+                  <!-- <div class="modal-footer" style="background: url(img/bg-red.png) no-repeat center center; background-size: cover;">
+                    <button type="button" class="btn" data-dismiss="modal"><h4 class="got-it">Got it!</h4></button>
+                  </div> -->
                 </div>
               </div>
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>1</h2>
                         <div class="character">
-                            <img src="img/a1.png" alt="" class="character-logo">
+                            <img src="img/a1.png" alt="" class="character-logo img-responsive img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess1">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>2</h2>
                         <div class="character">
-                            <img src="img/b2.png" alt="" class="character-logo">
+                            <img src="img/b2.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess2">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>3</h2>
                                 <div class="character">
-                            <img src="img/c3.png" alt="" class="character-logo">
+                            <img src="img/c3.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess3">
@@ -130,30 +131,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
                         <h2>4</h2>
                         <div class="character">
-                            <img src="img/d4.png" alt="" class="character-logo">
+                            <img src="img/d4.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess4">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
                         <h2>5</h2>
                         <div class="character">
-                            <img src="img/e5.png" alt="" class="character-logo" style="height: 200px;">
+                            <img src="img/e5.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess5">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
                         <h2>6</h2>
                                 <div class="character">
-                            <img src="img/f6.png" alt="" class="character-logo">
+                            <img src="img/f6.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess6">
@@ -163,31 +164,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>7</h2>
                         <div class="character">
-                            <img src="img/g7.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/g7.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess7">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>8</h2>
                         <div class="character">
-                            <img src="img/h8.png" alt="" class="character-logo">
+                            <img src="img/h8.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess8">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>9</h2>
                                 <div class="character">
-                            <img src="img/i9.png" alt="" class="character-logo">
+                            <img src="img/i9.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess9">
@@ -197,31 +197,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
                         <h2>10</h2>
                         <div class="character">
-                            <img src="img/j10.png" alt="" class="character-logo">
+                            <img src="img/j10.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess10">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
                         <h2>11</h2>
                         <div class="character">
-                            <img src="img/k11.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/k11.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess11">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
                         <h2>12</h2>
                                 <div class="character">
-                            <img src="img/l12.png" alt="" class="character-logo">
+                            <img src="img/l12.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess12">
@@ -231,32 +230,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>13</h2>
                         <div class="character">
-                            <img src="img/m13.png" alt="" class="character-logo" style="height: 300px;
-    margin-top: -60px;">
+                            <img src="img/m13.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess13">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>14</h2>
                         <div class="character">
-                            <img src="img/n14.png" alt="" class="character-logo" style="height: 300px;
-    margin-top: -60px;">
+                            <img src="img/n14.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess14">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>15</h2>
                                 <div class="character">
-                            <img src="img/o15.png" alt="" class="character-logo">
+                            <img src="img/o15.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess15">
@@ -266,31 +263,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
                         <h2>16</h2>
                         <div class="character">
-                            <img src="img/p16.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/p16.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess16">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
                         <h2>17</h2>
                         <div class="character">
-                            <img src="img/q17.png" alt="" class="character-logo">
+                            <img src="img/q17.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess17">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
                         <h2>18</h2>
                                 <div class="character">
-                            <img src="img/r18.png" alt="" class="character-logo">
+                            <img src="img/r18.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess18">
@@ -300,31 +296,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>19</h2>
                         <div class="character">
-                            <img src="img/s19.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/s19.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess19">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>20</h2>
                         <div class="character">
-                            <img src="img/t20.png" alt="" class="character-logo">
+                            <img src="img/t20.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess20">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>21</h2>
                                 <div class="character">
-                            <img src="img/u21.png" alt="" class="character-logo">
+                            <img src="img/u21.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess21">
@@ -334,30 +329,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
                         <h2>22</h2>
                         <div class="character">
-                            <img src="img/v22.png" alt="" class="character-logo">
+                            <img src="img/v22.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess22">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
                         <h2>23</h2>
                         <div class="character">
-                            <img src="img/w23.png" alt="" class="character-logo">
+                            <img src="img/w23.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess23">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
                         <h2>24</h2>
                                 <div class="character">
-                            <img src="img/x24.png" alt="" class="character-logo">
+                            <img src="img/x24.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess24">
@@ -367,32 +362,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>25</h2>
                         <div class="character">
-                            <img src="img/y25.png" alt="" class="character-logo">
+                            <img src="img/y25.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess25">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>26</h2>
                         <div class="character">
-                            <img src="img/z26.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/z26.png" alt="" class="character-logo img-responsive" >
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess26">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>27</h2>
                                 <div class="character">
-                            <img src="img/za27.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/za27.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess27">
@@ -402,30 +395,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
                         <h2>28</h2>
                         <div class="character">
-                            <img src="img/zb28.png" alt="" class="character-logo">
+                            <img src="img/zb28.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess28">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
                         <h2>29</h2>
                         <div class="character">
-                            <img src="img/zc29.png" alt="" class="character-logo">
+                            <img src="img/zc29.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess29">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
                         <h2>30</h2>
                                 <div class="character">
-                            <img src="img/zd30.png" alt="" class="character-logo">
+                            <img src="img/zd30.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess30">
@@ -435,31 +428,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>31</h2>
                         <div class="character">
-                            <img src="img/ze31.png" alt="" class="character-logo" style="height: 350px;
-    margin-top: -60px;">
+                            <img src="img/ze31.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess31">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>32</h2>
                         <div class="character">
-                            <img src="img/zf32.png" alt="" style="height: 250px;" class="character-logo">
+                            <img src="img/zf32.png" alt="" style="height: 250px;" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess32">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>33</h2>
                                 <div class="character">
-                            <img src="img/zg33.png" alt="" class="character-logo">
+                            <img src="img/zg33.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess33">
@@ -469,31 +461,30 @@
             </div>
 
                         <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-orange.png) no-repeat center center; background-size: cover;">
                         <h2>34</h2>
                         <div class="character">
-                            <img src="img/zh34.png" alt="" class="character-logo">
+                            <img src="img/zh34.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess34">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-green.png) no-repeat center center; background-size: cover;">
                         <h2>35</h2>
                         <div class="character">
-                            <img src="img/zi35.png" alt="" class="character-logo">
+                            <img src="img/zi35.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess35">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-purple.png) no-repeat center center; background-size: cover;">
                         <h2>36</h2>
                                 <div class="character">
-                            <img src="img/zj36.png" alt="" class="character-logo" style="height: 300px;
-    margin-top: -60px;">
+                            <img src="img/zj36.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess36">
@@ -503,30 +494,30 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-blue.png) no-repeat center center; background-size: cover;">
                         <h2>37</h2>
                         <div class="character">
-                            <img src="img/zk37.png" alt="" class="character-logo">
+                            <img src="img/zk37.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess37">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-pink.png) no-repeat center center; background-size: cover;">
                         <h2>38</h2>
                         <div class="character">
-                            <img src="img/zl38.png" alt="" class="character-logo">
+                            <img src="img/zl38.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess38">
                         <button class="submit arrow-right"></button>
                     </div>
                 </div>
-                <div class="col-md-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
+                <div class="col-xs-4 herobox" style="background: url(img/bg-yellow.png) no-repeat center center; background-size: cover;">
                         <h2>39</h2>
                                 <div class="character">
-                            <img src="img/zm39.png" alt="" class="character-logo">
+                            <img src="img/zm39.png" alt="" class="character-logo img-responsive">
                         </div>
                     <div class="form">
                         <input type="text" name="guess" id="textArea" class="guess39">
@@ -539,13 +530,24 @@
         </div>
     </div>
 
+
+                        <div class="col-xs-4 ranking">
+                        <ul class="score">
+                            <li id="score" value="0"></li>
+                            <li id="level"></li>
+                            <li id="surprise"></li>   
+                        </ul>
+                    </div>
+
     <footer>
-        <div class="footer" style="background: url(img/footerbg.png) no-repeat center center; background-size: cover;">
+        <div class="footer">
             <div class="container-fluid">
-                <div>
-                     <button id="reset" class="pull-left col-md-3"><img src="img/reset.png" alt="" class="resetimg"><div class="arrow-right pull-right reset"></div></button>
-                     <div class="builtby col-md-6"><a href="http://bekahlynnbaker.com">bekah lynn baker</a></div>
-                     <div class="fb-share-button pull-right col-md-3" data-href="https://comic-quiz.com" data-layout="button"></div>   
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <button id="reset" class="play">START OVER</button>
+                     </div>
+                     <div class="builtby col-md-6 col-xs-12"><p>created by</p><a href="http://bekahlynnbaker.com">bekah lynn baker</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -554,6 +556,7 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
          <script src="js/main.js" type="text/javascript"></script>
+         <script src="js/jquery.matchHeight.js" type="text/javascript"></script>
 
         </body>
     </html>

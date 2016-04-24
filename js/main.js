@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
 
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+// (function(d, s, id) {
+//   var js, fjs = d.getElementsByTagName(s)[0];
+//   if (d.getElementById(id)) return;
+//   js = d.createElement(s); js.id = id;
+//   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+//   fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
 
-	// $(function() {
-	//     $('.character-logo').matchHeight();
-	// });
+	$(function() {
+	    $('.character').matchHeight();
+	});
 
-	// $('.form').hide()
+$('.score').hide();
 
 
 $('.herobox').click(function() {	
@@ -26,13 +26,13 @@ $('.herobox').click(function() {
 });		  
 
 	var correctAnswers = 0;
-	var levelZero = 'ignorant';
-	var levelOne = 'novice';
-	var levelTwo = 'apprentice';
-	var levelThree = 'intermediate';
-	var levelFour = 'advanced';
-	var levelFive = 'master';
-	var levelSix = 'expert';
+	var levelZero = '"ignorant"';
+	var levelOne = '"novice"';
+	var levelTwo = '"apprentice"';
+	var levelThree = '"intermediate"';
+	var levelFour = '"advanced"';
+	var levelFive = '"master"';
+	var levelSix = 'expert"';
 
 
 $('input[name="guess"]').keyup(function(){
@@ -41,6 +41,7 @@ $('input[name="guess"]').keyup(function(){
 
 $('.submit').click(function() {
 
+		$('.score').show();
 
 		var clickedOne = $(this);
 
@@ -52,7 +53,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess1').css('background-color', '#73AF59');
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess1').prop('disabled', true);
 
 		} else {
@@ -65,7 +65,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess2').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess2').prop('disabled', true);
 
 		} else {
@@ -78,7 +77,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess3').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess3').prop('disabled', true);
 
 		} else {
@@ -91,7 +89,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess4').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess4').prop('disabled', true);
 
 		} else {
@@ -104,7 +101,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess5').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess5').prop('disabled', true);
 
 		} else {
@@ -118,7 +114,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess6').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess6').prop('disabled', true);
 
 		} else {
@@ -130,7 +125,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess7').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess7').prop('disabled', true);
 
 		} else {
@@ -143,7 +137,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess8').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess8').prop('disabled', true);
 
 		} else {
@@ -155,7 +148,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess9').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess9').prop('disabled', true);
 
 		} else {
@@ -168,7 +160,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess10').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess10').prop('disabled', true);
 
 		} else {
@@ -185,7 +176,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess11').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess11').prop('disabled', true);
 
 		} else {
@@ -198,7 +188,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess12').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess12').prop('disabled', true);
 
 		} else {
@@ -211,7 +200,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess13').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess13').prop('disabled', true);
 
 		} else {
@@ -223,7 +211,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess14').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess14').prop('disabled', true);
 
 		} else {
@@ -236,7 +223,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess15').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess15').prop('disabled', true);
 
 		} else {
@@ -248,7 +234,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess16').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess16').prop('disabled', true);
 
 		} else {
@@ -261,7 +246,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess17').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess17').prop('disabled', true);
 
 		} else {
@@ -275,7 +259,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess18').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess18').prop('disabled', true);
 
 		} else {
@@ -289,7 +272,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess19').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess19').prop('disabled', true);
 
 		} else {
@@ -303,7 +285,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess20').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess20').prop('disabled', true);
 
 		} else {
@@ -316,7 +297,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess21').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess21').prop('disabled', true);
 
 		} else {
@@ -329,7 +309,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess22').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess22').prop('disabled', true);
 
 		} else {
@@ -345,7 +324,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess23').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess23').prop('disabled', true);
 
 		} else {
@@ -358,7 +336,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess24').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess24').prop('disabled', true);
 
 		} else {
@@ -373,7 +350,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess25').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess25').prop('disabled', true);
 
 		} else {
@@ -386,7 +362,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess26').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess26').prop('disabled', true);
 
 		} else {
@@ -398,7 +373,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess27').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess27').prop('disabled', true);
 
 		} else {
@@ -411,7 +385,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess28').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess28').prop('disabled', true);
 
 		} else {
@@ -424,7 +397,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess29').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess29').prop('disabled', true);
 
 		} else {
@@ -437,7 +409,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess30').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess30').prop('disabled', true);
 
 		} else {
@@ -449,7 +420,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess31').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess31').prop('disabled', true);
 
 		} else {
@@ -462,7 +432,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess32').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess32').prop('disabled', true);
 
 		} else {
@@ -475,7 +444,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess33').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess33').prop('disabled', true);
 
 		} else {
@@ -488,7 +456,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess34').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess34').prop('disabled', true);
 
 		} else {
@@ -504,7 +471,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess35').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess35').prop('disabled', true);
 
 		} else {
@@ -517,7 +483,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess36').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess36').prop('disabled', true);
 
 		} else {
@@ -532,7 +497,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess37').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess37').prop('disabled', true);
 
 		} else {
@@ -544,7 +508,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess38').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess38').prop('disabled', true);
 
 		} else {
@@ -558,7 +521,6 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess39').css('background-color', '#73AF59');
 			 previousValue = correctAnswers;
 			 	correctAnswers++;
-			$(clickedOne).hide();
 	        $(clickedOne).siblings('.guess39').prop('disabled', true);
 
 		} else {
