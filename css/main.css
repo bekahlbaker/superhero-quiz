@@ -91,7 +91,7 @@ li {
 
 @media screen and (max-width: 598px) {
 	.score li {
-		padding-left: 5px;
+		padding-left: -5px;
 
 	}
 }
@@ -101,9 +101,6 @@ li {
  	background: rgba(255, 255, 255, .5);
 	padding: 0;
 	position: fixed;
-	width: 55%;
-	height: 12%;
-	bottom: 20%;
 	top: 25%;
 	right: 0%;
 	z-index:2;
@@ -113,8 +110,7 @@ li {
 @media screen and (max-width: 598px) {
 	.score {
 	top: 20%;
-	height: 10%;
-	width: 60%;
+
 	}
 }
 
@@ -195,6 +191,7 @@ h2 {
 }
 
 #textArea {
+	color: #000;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	text-transform: lowercase;
@@ -209,13 +206,7 @@ h2 {
 }
 
 .submit {
-	vertical-align: middle;
-}
-
-@media screen and (max-width: 750px) {
-	.submit {
-		visibility: hidden;
-	}
+	display: none;
 }
 
 /*
