@@ -13,7 +13,7 @@ $(document).ready(function(){
 	    $('.character').matchHeight();
 	});
 
-// $('.score').hide();
+$('.score').hide();
 
 
 $('.herobox').click(function() {	
@@ -41,7 +41,7 @@ $('input[name="guess"]').keyup(function(){
 
 $('.submit').click(function() {
 
-		// $('.score').show();
+		$('.score').show();
 
 		var clickedOne = $(this);
 
@@ -50,10 +50,10 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess1').val() === 'flash' ||
 				$(clickedOne).siblings('.guess1').val() === 'theflash') {
 
-			$(clickedOne).siblings('.guess1').css('background-color', '#73AF59');
+			$(clickedOne).siblings('.guess1').hide();
+			$(clickedOne).siblings('.answer').html('the flash');
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.guess1').prop('disabled', true);
 
 		} else {
 			$(clickedOne).siblings('.guess1').css('background-color', '#D72729');
@@ -62,10 +62,10 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess2').val() === 'antman' ||
 				$(clickedOne).siblings('.guess2').val() === 'ant man') {
 
-			$(clickedOne).siblings('.guess2').css('background-color', '#73AF59');
-			 previousValue = correctAnswers;
+			$(clickedOne).siblings('.guess2').hide();
+			$(clickedOne).siblings('.answer').html('antman');
+			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.guess2').prop('disabled', true);
 
 		} else {
 			$(clickedOne).siblings('.guess2').css('background-color', '#D72729');
