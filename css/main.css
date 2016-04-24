@@ -82,67 +82,6 @@ li {
 	background: transparent;
 }
 
-.score li{
-	list-style: none;
-	text-align: center;
-	display: inline;
-	padding-left: 20px;
-}
-
-@media screen and (max-width: 598px) {
-	.score li {
-		padding-left: -5px;
-
-	}
-}
-
-.score { 
-	border: 1px dashed black;
- 	background: rgba(255, 255, 255, .5);
-	padding: 0;
-	position: fixed;
-	bottom: 50%;
-	right: 0%;
-	z-index:2;
-	padding: 5px 0px;
-}
-
-/*@media screen and (max-width: 598px) {
-	.score {
-	top: 20%;
-
-	}
-}*/
-
-/*@media screen and (min-width: 990px) {
-	.score {
-		top:5%;
-	}
-}*/
-#score{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2.5em;
-	letter-spacing: 3px;
-}
-
-@media screen and (min-width: 598px) {
-	#score {
-		font-size: 3.5em;
-	}
-}
-
-#level {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5em;
-	letter-spacing: 3px;
-}
-
-@media screen and (min-width: 598px) {
-	#level {
-		font-size: 2.5em;
-	}
-}
-
 
 /*GAME*/
 
@@ -175,8 +114,14 @@ li {
 }
 
 .herobox{
-	max-height: 450px;
+	height: 450px;
 	margin: 0
+}
+
+@media screen and (max-width: 598px) {
+	.herobox {
+		height: 350px;
+	}
 }
 
 h2 {
@@ -205,8 +150,49 @@ h2 {
 	}
 }
 
+.answer {
+	font-size: 1.25em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	color: #000;
+}
+
 .submit {
 	display: none;
+}
+
+#getScore {
+	padding: 15px 75px;
+	font-size: 1.5em;
+}
+.ranking {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.score {
+	padding: 0px;
+}
+
+.score li{
+	list-style: none;
+	text-align: center;
+	display: inline;
+	padding-left: 20px;
+}
+
+#score{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	letter-spacing: 5px;
+}
+
+#level {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	letter-spacing: 5px;
 }
 
 /*
@@ -231,4 +217,18 @@ FOOTER*/
 	letter-spacing: 2px;
 
 
+}
+
+#reset {
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 25px;
+	border: 1px solid black;
+	background: #000;
+	color: #fff;
+}
+
+#reset:hover {
+	background: transparent;
 }
