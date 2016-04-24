@@ -107,18 +107,18 @@ li {
 	padding: 5px 0px;
 }
 
-@media screen and (max-width: 598px) {
+/*@media screen and (max-width: 598px) {
 	.score {
 	top: 20%;
 
 	}
-}
+}*/
 
-@media screen and (min-width: 990px) {
+/*@media screen and (min-width: 990px) {
 	.score {
 		top:5%;
 	}
-}
+}*/
 #score{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
