@@ -13,7 +13,7 @@ $(document).ready(function(){
 	    $('.character').matchHeight();
 	});
 
-$('.score').hide();
+// $('.score').hide();
 
 
 $('.herobox').click(function() {	
@@ -41,7 +41,7 @@ $('input[name="guess"]').keyup(function(){
 
 $('.submit').click(function() {
 
-		$('.score').show();
+		// $('.score').show();
 
 		var clickedOne = $(this);
 
