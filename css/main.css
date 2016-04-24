@@ -114,6 +114,13 @@ li {
 	.score {
 	top: 20%;
 	height: 10%;
+	width: 60%;
+	}
+}
+
+@media screen and (min-width: 990px) {
+	.score {
+		top:5%;
 	}
 }
 #score{
