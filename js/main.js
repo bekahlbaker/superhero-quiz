@@ -49,7 +49,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess1').val() === 'flash' ||
 				$(clickedOne).siblings('.guess1').val() === 'theflash') {
 
-			$(clickedOne).siblings('.guess1').hide();
+			$(clickedOne).siblings('#textArea').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 	        $(clickedOne).siblings('.answer').html('the flash');
@@ -568,13 +568,15 @@ $('input[name="guess"]').keyup(function (e) {
 		   		textboxes = $('input[name="guess"]');
 		        currentBoxNumber = textboxes.index(this);
 		        if (correctAnswers != previousValue) {
-		            nextBox = textboxes[currentBoxNumber + 1]
+		        	if (nextBox = textboxes[currentBoxNumber + 1]) {
 		            nextBox.focus();
 		            nextBox.select();
-		            // event.preventDefault();
-		            // return false 
 		            previousValue++;
-		            }
+		        	}
+		        	else {
+		       		$('#getScore').focus();
+		       	}
+		        }
 	    }
 
 
