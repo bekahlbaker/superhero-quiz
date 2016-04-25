@@ -115,13 +115,13 @@ li {
 }
 
 .herobox{
-	height: 450px;
+	height: 455px;
 	margin: 0
 }
 
 @media screen and (max-width: 598px) {
 	.herobox {
-		height: 350px;
+		height: 355px;
 	}
 }
 
@@ -159,7 +159,17 @@ h2 {
 }
 
 .submit {
-	display: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: .75em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px 10px;
+	border: 1px solid black;
+	background: #000;
+}
+
+.submit:hover {
+	background: transparent;
 }
 
 #getScore {

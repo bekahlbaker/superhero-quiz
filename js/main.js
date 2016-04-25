@@ -52,6 +52,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess1').val() === 'flash' ||
 				$(clickedOne).siblings('.guess1').val() === 'theflash') {
 
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('#textArea').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -63,7 +64,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess2').val() === 'antman' ||
 				$(clickedOne).siblings('.guess2').val() === 'ant man') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess2').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -75,7 +76,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess3').val() === 'deadpool' ||
 				$(clickedOne).siblings('.guess3').val() === 'dead pool') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess3').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -87,7 +88,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess4').val() === 'spiderman' ||
 				$(clickedOne).siblings('.guess4').val() === 'spider man') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess4').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -99,7 +100,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess5').val() === 'clayface' ||
 				$(clickedOne).siblings('.guess5').val() === 'clay face') {
-
+			$(clickedOne).attr("disabled", true);
 						$(clickedOne).siblings('.guess5').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -112,7 +113,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess6').val() === 'the penguin' ||
 				$(clickedOne).siblings('.guess6').val() === 'penguin' ||
 				$(clickedOne).siblings('.guess6').val() === 'thepenguin' ) {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess6').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -123,7 +124,7 @@ $('.submit').click(function() {
 		}
 
 		if ($(clickedOne).siblings('.guess7').val() === 'electro') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess7').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -135,7 +136,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess8').val() === 'two face' ||
 				$(clickedOne).siblings('.guess8').val() === 'twoface') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess8').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -146,7 +147,7 @@ $('.submit').click(function() {
 		}
 
 		if ($(clickedOne).siblings('.guess9').val() === 'wolverine') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess9').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -158,7 +159,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess10').val() === 'hawk eye' ||
 				$(clickedOne).siblings('.guess10').val() === 'hawkeye') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess10').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -174,7 +175,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess11').val() === 'the scare crow' ||
 				$(clickedOne).siblings('.guess11').val() === 'scarecrow' ||
 				$(clickedOne).siblings('.guess11').val() === 'thescarecrow') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess11').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -186,7 +187,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess12').val() === 'poison ivy' ||
 				$(clickedOne).siblings('.guess12').val() === 'poisonivy') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess12').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -198,7 +199,7 @@ $('.submit').click(function() {
 
 
 		if ($(clickedOne).siblings('.guess13').val() === 'venom') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess13').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -209,7 +210,7 @@ $('.submit').click(function() {
 		}
 
 		if ($(clickedOne).siblings('.guess14').val() === 'cyborg') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess14').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -221,7 +222,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess15').val() === 'batman' ||
 				$(clickedOne).siblings('.guess15').val() === 'bat man') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess15').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -231,8 +232,9 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess15').css('background-color', '#D72729');
 		}
 
-		if ($(clickedOne).siblings('.guess16').val() === 'wonder woman') {
-
+		if ($(clickedOne).siblings('.guess16').val() === 'wonder woman' ||
+				$(clickedOne).siblings('.guess16').val() === 'wonderwoman') {
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess16').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -244,7 +246,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess17').val() === 'superman' ||
 				$(clickedOne).siblings('.guess17').val() === 'super man') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess17').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -257,7 +259,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess18').val() === 'hulk' ||
 				$(clickedOne).siblings('.guess18').val() === 'the hulk' ||
 				$(clickedOne).siblings('.guess18').val() === 'thehulk') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess18').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -270,7 +272,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess19').val() === 'joker' ||
 				$(clickedOne).siblings('.guess19').val() === 'the joker' ||
 				$(clickedOne).siblings('.guess19').val() === 'thejoker') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess19').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -283,7 +285,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess20').val() === 'bizarro' ||
 				$(clickedOne).siblings('.guess20').val() === 'bizarro superman' ||
 				$(clickedOne).siblings('.guess20').val() === 'bizarrosuperman') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess20').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -295,7 +297,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess21').val() === 'aquaman' ||
 				$(clickedOne).siblings('.guess21').val() === 'aqua man') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess21').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -307,7 +309,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess22').val() === 'catwoman' ||
 				$(clickedOne).siblings('.guess22').val() === 'cat woman') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess22').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -322,7 +324,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess23').val() === 'the greengoblin'||
 				$(clickedOne).siblings('.guess23').val() === 'greengoblin' ||
 				$(clickedOne).siblings('.guess23').val() === 'thegreengoblin') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess23').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -334,7 +336,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess24').val() === 'batgirl' ||
 				$(clickedOne).siblings('.guess24').val() === 'bat girl') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess24').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -348,7 +350,7 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess25').val() === 'mrfreeze' ||
 			$(clickedOne).siblings('.guess25').val() === 'mister freeze' ||
 			$(clickedOne).siblings('.guess25').val() === 'misterfreeze') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess25').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -360,7 +362,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess26').val() === 'lex luthor' || 
 			$(clickedOne).siblings('.guess26').val() === 'lexluthor') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess26').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -371,7 +373,7 @@ $('.submit').click(function() {
 		}
 
 		if ($(clickedOne).siblings('.guess27').val() === 'thor') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess27').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -383,7 +385,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess28').val() === 'robin' ||
 				$(clickedOne).siblings('.guess28').val() === 'nightwing') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess28').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -395,7 +397,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess29').val() === 'ironman' ||
 				$(clickedOne).siblings('.guess29').val() === 'iron man') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess29').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -407,7 +409,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess30').val() === 'killer croc' ||
 				$(clickedOne).siblings('.guess30').val() === 'killercroc') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess30').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -418,7 +420,7 @@ $('.submit').click(function() {
 		}
 
 		if ($(clickedOne).siblings('.guess31').val() === 'groot') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess31').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -430,7 +432,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess32').val() === 'harley quinn' ||
 				$(clickedOne).siblings('.guess32').val() === 'harleyquinn') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess32').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -442,7 +444,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess33').val() === 'dare devil' ||
 				$(clickedOne).siblings('.guess33').val() === 'daredevil') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess33').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -454,7 +456,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess34').val() === 'captain america' ||
 				$(clickedOne).siblings('.guess34').val() === 'captainamerica') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess34').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -469,7 +471,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess35').val() === 'the greenarrow' ||
 				$(clickedOne).siblings('.guess35').val() === 'thegreenarrow' ||
 				$(clickedOne).siblings('.guess35').val() === 'greenarrow') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess35').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -481,7 +483,7 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess36').val() === 'hawk man' ||
 				$(clickedOne).siblings('.guess36').val() === 'hawkman') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess36').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -495,7 +497,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess37').val() === 'drdoom' ||
 				$(clickedOne).siblings('.guess37').val() === 'doctor doom' ||
 				$(clickedOne).siblings('.guess37').val() === 'doctordoom') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess37').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -506,7 +508,7 @@ $('.submit').click(function() {
 		}
 
 		if ($(clickedOne).siblings('.guess38').val() === 'bane') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess38').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
@@ -519,7 +521,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess39').val() === 'the riddler' ||
 				$(clickedOne).siblings('.guess39').val() === 'theriddler' ||
 				$(clickedOne).siblings('.guess39').val() === 'riddler') {
-
+			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess39').hide();
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
