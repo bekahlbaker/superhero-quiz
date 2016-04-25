@@ -53,10 +53,10 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess1').val() === 'theflash') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('#textArea').hide();
+			$(clickedOne).siblings('.guess1').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess1').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('the flash');
 
 		} else {
 			$(clickedOne).siblings('.guess1').css('background-color', '#D72729');
@@ -64,11 +64,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess2').val() === 'antman' ||
 				$(clickedOne).siblings('.guess2').val() === 'ant man') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess2').hide();
+			$(clickedOne).siblings('.guess2').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess2').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('antman');
 
 		} else {
 			$(clickedOne).siblings('.guess2').css('background-color', '#D72729');
@@ -76,11 +77,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess3').val() === 'deadpool' ||
 				$(clickedOne).siblings('.guess3').val() === 'dead pool') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess3').hide();
+			$(clickedOne).siblings('.guess3').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess3').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('deadpool');
 
 		} else {
 			$(clickedOne).siblings('.guess3').css('background-color', '#D72729');
@@ -88,11 +90,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess4').val() === 'spiderman' ||
 				$(clickedOne).siblings('.guess4').val() === 'spider man') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess4').hide();
+			$(clickedOne).siblings('.guess4').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess4').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('spiderman');
 
 		} else {
 			$(clickedOne).siblings('.guess4').css('background-color', '#D72729');
@@ -100,11 +103,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess5').val() === 'clayface' ||
 				$(clickedOne).siblings('.guess5').val() === 'clay face') {
+
 			$(clickedOne).attr("disabled", true);
-						$(clickedOne).siblings('.guess5').hide();
+			$(clickedOne).siblings('.guess5').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess5').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('clayface');
 
 		} else {
 			$(clickedOne).siblings('.guess5').css('background-color', '#D72729');
@@ -113,22 +117,24 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess6').val() === 'the penguin' ||
 				$(clickedOne).siblings('.guess6').val() === 'penguin' ||
 				$(clickedOne).siblings('.guess6').val() === 'thepenguin' ) {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess6').hide();
+			$(clickedOne).siblings('.guess6').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess6').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('the penguin');
 
 		} else {
 			$(clickedOne).siblings('.guess6').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess7').val() === 'electro') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess7').hide();
+			$(clickedOne).siblings('.guess7').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess7').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('electro');
 
 		} else {
 			$(clickedOne).siblings('.guess7').css('background-color', '#D72729');
@@ -136,22 +142,23 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess8').val() === 'two face' ||
 				$(clickedOne).siblings('.guess8').val() === 'twoface') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess8').hide();
+			$(clickedOne).siblings('.guess8').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess8').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('two face');
-
 		} else {
 			$(clickedOne).siblings('.guess8').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess9').val() === 'wolverine') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess9').hide();
+			$(clickedOne).siblings('.guess9').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess9').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('wolverine');
 
 		} else {
 			$(clickedOne).siblings('.guess9').css('background-color', '#D72729');
@@ -159,11 +166,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess10').val() === 'hawk eye' ||
 				$(clickedOne).siblings('.guess10').val() === 'hawkeye') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess10').hide();
+			$(clickedOne).siblings('.guess10').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess10').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('hawkeye');
 
 		} else {
 			$(clickedOne).siblings('.guess10').css('background-color', '#D72729');
@@ -175,11 +183,12 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess11').val() === 'the scare crow' ||
 				$(clickedOne).siblings('.guess11').val() === 'scarecrow' ||
 				$(clickedOne).siblings('.guess11').val() === 'thescarecrow') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess11').hide();
+			$(clickedOne).siblings('.guess11').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess11').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('scarecrow');
 
 		} else {
 			$(clickedOne).siblings('.guess11').css('background-color', '#D72729');
@@ -187,11 +196,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess12').val() === 'poison ivy' ||
 				$(clickedOne).siblings('.guess12').val() === 'poisonivy') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess12').hide();
+			$(clickedOne).siblings('.guess12').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess12').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('poison ivy');
 
 		} else {
 			$(clickedOne).siblings('.guess12').css('background-color', '#D72729');
@@ -199,22 +209,24 @@ $('.submit').click(function() {
 
 
 		if ($(clickedOne).siblings('.guess13').val() === 'venom') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess13').hide();
+			$(clickedOne).siblings('.guess13').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess13').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('venom');
 
 		} else {
 			$(clickedOne).siblings('.guess13').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess14').val() === 'cyborg') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess14').hide();
+			$(clickedOne).siblings('.guess14').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess14').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('cyborg');
 
 		} else {
 			$(clickedOne).siblings('.guess14').css('background-color', '#D72729');
@@ -222,11 +234,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess15').val() === 'batman' ||
 				$(clickedOne).siblings('.guess15').val() === 'bat man') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess15').hide();
+			$(clickedOne).siblings('.guess15').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess15').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('batman');
 
 		} else {
 			$(clickedOne).siblings('.guess15').css('background-color', '#D72729');
@@ -234,11 +247,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess16').val() === 'wonder woman' ||
 				$(clickedOne).siblings('.guess16').val() === 'wonderwoman') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess16').hide();
+			$(clickedOne).siblings('.guess16').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess16').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('wonder woman');
 
 		} else {
 			$(clickedOne).siblings('.guess16').css('background-color', '#D72729');
@@ -246,11 +260,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess17').val() === 'superman' ||
 				$(clickedOne).siblings('.guess17').val() === 'super man') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess17').hide();
+			$(clickedOne).siblings('.guess17').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess17').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('superman');
 
 		} else {
 			$(clickedOne).siblings('.guess17').css('background-color', '#D72729');
@@ -259,11 +274,12 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess18').val() === 'hulk' ||
 				$(clickedOne).siblings('.guess18').val() === 'the hulk' ||
 				$(clickedOne).siblings('.guess18').val() === 'thehulk') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess18').hide();
+			$(clickedOne).siblings('.guess18').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess18').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('the hulk');
 
 		} else {
 			$(clickedOne).siblings('.guess18').css('background-color', '#D72729');
@@ -272,11 +288,12 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess19').val() === 'joker' ||
 				$(clickedOne).siblings('.guess19').val() === 'the joker' ||
 				$(clickedOne).siblings('.guess19').val() === 'thejoker') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess19').hide();
+			$(clickedOne).siblings('.guess19').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess19').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('the joker');
 
 		} else {
 			$(clickedOne).siblings('.guess19').css('background-color', '#D72729');
@@ -285,11 +302,12 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess20').val() === 'bizarro' ||
 				$(clickedOne).siblings('.guess20').val() === 'bizarro superman' ||
 				$(clickedOne).siblings('.guess20').val() === 'bizarrosuperman') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess20').hide();
+			$(clickedOne).siblings('.guess20').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess20').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('bizarro');
 
 		} else {
 			$(clickedOne).siblings('.guess20').css('background-color', '#D72729');
@@ -297,11 +315,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess21').val() === 'aquaman' ||
 				$(clickedOne).siblings('.guess21').val() === 'aqua man') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess21').hide();
+			$(clickedOne).siblings('.guess21').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess21').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('aquaman');
 
 		} else {
 			$(clickedOne).siblings('.guess21').css('background-color', '#D72729');
@@ -309,11 +328,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess22').val() === 'catwoman' ||
 				$(clickedOne).siblings('.guess22').val() === 'cat woman') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess22').hide();
+			$(clickedOne).siblings('.guess22').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess22').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('catwoman');
 
 		} else {
 			$(clickedOne).siblings('.guess22').css('background-color', '#D72729');
@@ -324,11 +344,12 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess23').val() === 'the greengoblin'||
 				$(clickedOne).siblings('.guess23').val() === 'greengoblin' ||
 				$(clickedOne).siblings('.guess23').val() === 'thegreengoblin') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess23').hide();
+			$(clickedOne).siblings('.guess23').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess23').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('green goblin');
 
 		} else {
 			$(clickedOne).siblings('.guess23').css('background-color', '#D72729');
@@ -336,11 +357,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess24').val() === 'batgirl' ||
 				$(clickedOne).siblings('.guess24').val() === 'bat girl') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess24').hide();
+			$(clickedOne).siblings('.guess24').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess24').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('batgirl');
 
 		} else {
 			$(clickedOne).siblings('.guess24').css('background-color', '#D72729');
@@ -350,11 +372,12 @@ $('.submit').click(function() {
 			$(clickedOne).siblings('.guess25').val() === 'mrfreeze' ||
 			$(clickedOne).siblings('.guess25').val() === 'mister freeze' ||
 			$(clickedOne).siblings('.guess25').val() === 'misterfreeze') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess25').hide();
+			$(clickedOne).siblings('.guess25').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess25').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('mr freeze');
 
 		} else {
 			$(clickedOne).siblings('.guess25').css('background-color', '#D72729');
@@ -362,34 +385,36 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess26').val() === 'lex luthor' || 
 			$(clickedOne).siblings('.guess26').val() === 'lexluthor') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess26').hide();
+			$(clickedOne).siblings('.guess26').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess26').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('lex luthor');
 
 		} else {
 			$(clickedOne).siblings('.guess26').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess27').val() === 'thor') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess27').hide();
+			$(clickedOne).siblings('.guess27').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess27').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('thor');
-
 		} else {
 			$(clickedOne).siblings('.guess27').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess28').val() === 'robin' ||
 				$(clickedOne).siblings('.guess28').val() === 'nightwing') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess28').hide();
+			$(clickedOne).siblings('.guess28').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess28').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('robin');
 
 		} else {
 			$(clickedOne).siblings('.guess28').css('background-color', '#D72729');
@@ -397,11 +422,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess29').val() === 'ironman' ||
 				$(clickedOne).siblings('.guess29').val() === 'iron man') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess29').hide();
+			$(clickedOne).siblings('.guess29').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess29').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('ironman');
 
 		} else {
 			$(clickedOne).siblings('.guess29').css('background-color', '#D72729');
@@ -409,22 +435,24 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess30').val() === 'killer croc' ||
 				$(clickedOne).siblings('.guess30').val() === 'killercroc') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess30').hide();
+			$(clickedOne).siblings('.guess30').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess30').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('killer croc');
 
 		} else {
 			$(clickedOne).siblings('.guess30').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess31').val() === 'groot') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess31').hide();
+			$(clickedOne).siblings('.guess31').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess31').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('groot');
 
 		} else {
 			$(clickedOne).siblings('.guess31').css('background-color', '#D72729');
@@ -432,11 +460,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess32').val() === 'harley quinn' ||
 				$(clickedOne).siblings('.guess32').val() === 'harleyquinn') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess32').hide();
+			$(clickedOne).siblings('.guess32').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess32').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('harley quinn');
 
 		} else {
 			$(clickedOne).siblings('.guess32').css('background-color', '#D72729');
@@ -444,11 +473,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess33').val() === 'dare devil' ||
 				$(clickedOne).siblings('.guess33').val() === 'daredevil') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess33').hide();
+			$(clickedOne).siblings('.guess32').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess32').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('dare devil');
 
 		} else {
 			$(clickedOne).siblings('.guess33').css('background-color', '#D72729');
@@ -456,11 +486,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess34').val() === 'captain america' ||
 				$(clickedOne).siblings('.guess34').val() === 'captainamerica') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess34').hide();
+			$(clickedOne).siblings('.guess34').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess34').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('captain america');
 
 		} else {
 			$(clickedOne).siblings('.guess34').css('background-color', '#D72729');
@@ -471,11 +502,12 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess35').val() === 'the greenarrow' ||
 				$(clickedOne).siblings('.guess35').val() === 'thegreenarrow' ||
 				$(clickedOne).siblings('.guess35').val() === 'greenarrow') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess35').hide();
+			$(clickedOne).siblings('.guess35').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess35').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('green arrow');
 
 		} else {
 			$(clickedOne).siblings('.guess35').css('background-color', '#D72729');
@@ -483,11 +515,12 @@ $('.submit').click(function() {
 
 		if ($(clickedOne).siblings('.guess36').val() === 'hawk man' ||
 				$(clickedOne).siblings('.guess36').val() === 'hawkman') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess36').hide();
+			$(clickedOne).siblings('.guess36').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess36').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('hawkman');
 
 		} else {
 			$(clickedOne).siblings('.guess36').css('background-color', '#D72729');
@@ -497,22 +530,24 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess37').val() === 'drdoom' ||
 				$(clickedOne).siblings('.guess37').val() === 'doctor doom' ||
 				$(clickedOne).siblings('.guess37').val() === 'doctordoom') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess37').hide();
+			$(clickedOne).siblings('.guess37').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess37').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('dr doom');
 
 		} else {
 			$(clickedOne).siblings('.guess37').css('background-color', '#D72729');
 		}
 
 		if ($(clickedOne).siblings('.guess38').val() === 'bane') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess38').hide();
+			$(clickedOne).siblings('.guess38').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess38').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('bane');
 
 		} else {
 			$(clickedOne).siblings('.guess38').css('background-color', '#D72729');
@@ -521,11 +556,12 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess39').val() === 'the riddler' ||
 				$(clickedOne).siblings('.guess39').val() === 'theriddler' ||
 				$(clickedOne).siblings('.guess39').val() === 'riddler') {
+
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess39').hide();
+			$(clickedOne).siblings('.guess39').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess39').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
-	        $(clickedOne).siblings('.answer').html('the riddler');
 
 		} else {
 			$(clickedOne).siblings('.guess39').css('background-color', '#D72729');
