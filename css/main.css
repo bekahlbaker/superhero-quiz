@@ -229,6 +229,15 @@ FOOTER*/
 
 }
 
+.builtby p {
+	padding-top: 15px;
+	text-align: center;
+	color: black;
+	font-family: 'Montserrat';
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
 #reset {
 	letter-spacing: 2px;
 	font-size: 1em;
