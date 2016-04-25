@@ -169,7 +169,7 @@ h2 {
 }
 
 .submit:hover {
-	background: transparent;
+	background-color: rgba(0, 0, 0, .5);
 }
 
 #getScore {
