@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
 $('#focus').focus();
 
 
@@ -564,6 +565,8 @@ $('input[name="guess"]').keyup(function (e) {
 	    if (e.keyCode == 13) {
 	   		$(submit).click();
 
+	   		if ($(window).width() > 598) {
+
 	   		console.log(previousValue);
 	   		console.log(correctAnswers);
 
@@ -579,6 +582,7 @@ $('input[name="guess"]').keyup(function (e) {
 		       		$('#getScore').focus();
 		       	}
 		        }
+		    }
 	    }
 
 
