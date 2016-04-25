@@ -53,8 +53,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess1').val() === 'theflash') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess1').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess1').prop('disabled', true);
+			$(clickedOne).siblings('.guess1').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -66,8 +65,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess2').val() === 'ant man') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess2').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess2').prop('disabled', true);
+			$(clickedOne).siblings('.guess2').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -79,8 +77,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess3').val() === 'dead pool') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess3').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess3').prop('disabled', true);
+			$(clickedOne).siblings('.guess3').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -92,8 +89,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess4').val() === 'spider man') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess4').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess4').prop('disabled', true);
+			$(clickedOne).siblings('.guess4').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -105,8 +101,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess5').val() === 'clay face') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess5').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess5').prop('disabled', true);
+			$(clickedOne).siblings('.guess5').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -119,8 +114,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess6').val() === 'thepenguin' ) {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess6').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess6').prop('disabled', true);
+			$(clickedOne).siblings('.guess6').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -131,8 +125,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess7').val() === 'electro') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess7').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess7').prop('disabled', true);
+			$(clickedOne).siblings('.guess7').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -144,8 +137,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess8').val() === 'twoface') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess8').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess8').prop('disabled', true);
+			$(clickedOne).siblings('.guess8').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 		} else {
@@ -155,8 +147,7 @@ $('.submit').click(function() {
 		if ($(clickedOne).siblings('.guess9').val() === 'wolverine') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess9').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess9').prop('disabled', true);
+			$(clickedOne).siblings('.guess9').css('background-color', '#1E824C')
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -169,7 +160,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess10').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess10').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -186,7 +176,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess11').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess11').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -199,7 +188,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess12').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess12').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -212,7 +200,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess13').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess13').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -224,7 +211,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess14').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess14').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -237,7 +223,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess15').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess15').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -250,7 +235,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess16').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess16').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -263,7 +247,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess17').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess17').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -277,7 +260,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess18').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess18').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -291,7 +273,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess19').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess19').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -305,7 +286,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess20').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess20').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -318,7 +298,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess21').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess21').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -331,7 +310,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess22').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess22').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -347,7 +325,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess23').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess23').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -360,7 +337,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess24').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess24').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -375,7 +351,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess25').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess25').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -388,7 +363,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess26').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess26').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -400,7 +374,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess27').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess27').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 		} else {
@@ -412,7 +385,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess28').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess28').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -425,7 +397,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess29').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess29').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -438,7 +409,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess30').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess30').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -450,7 +420,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess31').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess31').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -463,7 +432,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess32').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess32').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -476,7 +444,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess32').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess32').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -489,7 +456,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess34').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess34').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -505,7 +471,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess35').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess35').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -518,7 +483,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess36').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess36').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -533,7 +497,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess37').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess37').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -545,7 +508,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess38').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess38').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
@@ -559,7 +521,6 @@ $('.submit').click(function() {
 
 			$(clickedOne).attr("disabled", true);
 			$(clickedOne).siblings('.guess39').css('background-color', '#1E824C');
-			$(clickedOne).siblings('.guess39').prop('disabled', true);
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
