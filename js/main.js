@@ -443,7 +443,7 @@ $('.submit').click(function() {
 				$(clickedOne).siblings('.guess33').val() === 'daredevil') {
 
 			$(clickedOne).attr("disabled", true);
-			$(clickedOne).siblings('.guess32').css('background-color', '#1E824C');
+			$(clickedOne).siblings('.guess33').css('background-color', '#1E824C');
 			  previousValue = correctAnswers;
 			 	correctAnswers++;
 
